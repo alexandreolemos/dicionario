@@ -1,6 +1,17 @@
 const rulesToApply = [firstCondition, secondCondition, thirdCondition, fourthCondition, fifthCondition, sixthCondition, seventhCondition];
 const dictionaryRuleToApply = [dictionaryMatch];
 
+
+$.ajax({
+  url: "http://htmlpreview.github.io/?https://github.com/alexandreolemos/dicionario/blob/master/dictionary.json",
+}).done(function(JsonToGet) {
+  const dictionaryWords = JsonToGet;
+  //Management of the JSON with 'data' variable. 
+});
+
+
+
+
 function checkCompoundWord() {
 
 	let firstWord = document.getElementById("wordFirstPart").value.toLowerCase();
