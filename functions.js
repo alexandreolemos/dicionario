@@ -2,8 +2,6 @@ const rulesToApply = [firstCondition, secondCondition, thirdCondition, fourthCon
 const dictionaryRuleToApply = [dictionaryMatch];
 
 
-
-
 function checkCompoundWord() {
 
 	let firstWord = document.getElementById("wordFirstPart").value.toLowerCase();
