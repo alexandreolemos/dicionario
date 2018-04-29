@@ -2,14 +2,6 @@ const rulesToApply = [firstCondition, secondCondition, thirdCondition, fourthCon
 const dictionaryRuleToApply = [dictionaryMatch];
 
 
-$.ajax({
-  url: "http://htmlpreview.github.io/?https://github.com/alexandreolemos/dicionario/blob/master/dictionary.json",
-}).done(function(JsonToGet) {
-  const dictionaryWords = JsonToGet;
-  //Management of the JSON with 'data' variable. 
-});
-
-
 
 
 function checkCompoundWord() {
