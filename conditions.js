@@ -4,14 +4,17 @@ const consoantsLessH = ['b','c','d','f','g','j','k','l','m','n','p','q','r','s',
 const wordPrefix = ['aero','agro','alvi','ante','anti','arqui','auto','contra','des','eletro','entre','extra','foto','geo','hidro','in','infra','intra','macro','maxi','mega','micro','mini','moto','multi','nano','neo','pluri','poli','proto','pseudo','retro','semi','sobre','socio','supra','tele','tri','ultra','vaso', 'video']
 //const dictionaryWords = ["abelha-amarela", "abelha-brava", "abelha-cachorro", "infraestrutura", "roupa nova", "antirrábica"];
 
-var requestURL = '//dictionary.json';
+
+var requestURL = 'http://htmlpreview.github.io/?https://github.com/alexandreolemos/dicionario/blob/master/dictionary.json';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'json';
 request.send();
 request.onload = function() {
-  var dictionaryWords = request.response;
+  var dictionaryWordsJson = request.response;
+  console.log(request.response)
 }
+
 
 
 
