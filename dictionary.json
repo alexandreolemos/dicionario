@@ -1,1 +1,11 @@
-["abelha-amarela", "abelha-brava", "abelha-cachorro"]
+[
+  {
+    word:"abelha-amarela",
+  },
+  {
+    word:"abelha-brava"
+  },
+  {
+    word:"abelha-cachorro"
+  }
+]
